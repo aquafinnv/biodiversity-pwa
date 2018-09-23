@@ -6,7 +6,7 @@ This project is mostly there as a way to demonstrate the capabilities of working
 
 Geolocation is available through the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).  A demonstration about how to use the Geolocation API to track coördinates can be found within the [location.service.ts](https://github.com/aquafinnv/biodiversity-pwa/blob/d0426633e0d2e7df7d91971f811edbbbe8128770/src/app/map/location.service.ts#L12-L23).
 
-![Screenshot of Geolocation API in action](/Users/dimitri/Downloads/biodiversity-pwa/screenshots/Screenshot_20180915-005815.png)
+![Screenshot of Geolocation API in action]screenshots/Screenshot_20180915-005815.png)
 
 ### Offline availability
 
@@ -22,9 +22,9 @@ When the application has a service worker registered, the web browser will autom
 
 Alternatively a user can manually add the application to their home screen, but then it won't be availabe within their application list, and it will have a small browser logo at the bottom right corner of the logo.
 
-![Screenshot of browser requesting app to be added to home screen](/Users/dimitri/Downloads/biodiversity-pwa/screenshots/Screenshot_20180915-004620.png)
+![Screenshot of browser requesting app to be added to home screen](screenshots/Screenshot_20180915-004620.png)
 
-![Confirmation screen when adding the app to your home screen](/Users/dimitri/Downloads/biodiversity-pwa/screenshots/Screenshot_20180915-004628.png)
+![Confirmation screen when adding the app to your home screen](screenshots/Screenshot_20180915-004628.png)
 
 An example manifest can be found within [src/manifest.json](https://github.com/aquafinnv/biodiversity-pwa/blob/master/src/manifest.json).
 
@@ -32,7 +32,7 @@ An example manifest can be found within [src/manifest.json](https://github.com/a
 
 Just like native applications, progressive web apps can show notifications using the [Push API](https://developer.mozilla.org/en-US/docs/Web/API/Push_API). This feature requires a service worker to be registered as well, which means that the application should be served over **HTTPS**.
 
-![Example of a push notification](/Users/dimitri/Downloads/biodiversity-pwa/screenshots/Screenshot_20180915-005853.png)
+![Example of a push notification](screenshots/Screenshot_20180915-005853.png)
 
 An example of how to create a push notification can be found within the [map-page.component.ts](https://github.com/aquafinnv/biodiversity-pwa/blob/d0426633e0d2e7df7d91971f811edbbbe8128770/src/app/map/map-page/map-page.component.ts#L55-L64).
 
