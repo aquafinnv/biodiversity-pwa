@@ -1,27 +1,25 @@
-# BioHackGo
+# Biodiversity PWA [![License](https://img.shields.io/github/license/aquafinnv/biodiversity-pwa.svg)](https://github.com/aquafinnv/biodiversity-pwa/blob/master/LICENSE)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
+## What is this?
+The biodiversity PWA is a progressive web app built with Angular CLI, which will show a map of nearby spotted animals and allow adding favourites.
 
-## Development server
+## Installation
+To use the application, you need to have **Node.js v8.x** or later and **Angular CLI** installed. After that, you can set up the project by using:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+```
+npm install
+```
 
-## Code scaffolding
+## Running the application
+To run the application in development mode, you can use the following command:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```
+ng serve
+```
 
-## Build
+Be ware, some functionality, such as the service worker, require you to run the production mode and to run the application over **HTTPS**. If you have a host somewhere, you can build the project by using:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+```
+ng build --prod
+```
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
