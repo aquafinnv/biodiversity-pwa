@@ -6,7 +6,7 @@ This project is mostly there as a way to demonstrate the capabilities of working
 
 Geolocation is available through the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).  A demonstration about how to use the Geolocation API to track coördinates can be found within the [location.service.ts](https://github.com/aquafinnv/biodiversity-pwa/blob/d0426633e0d2e7df7d91971f811edbbbe8128770/src/app/map/location.service.ts#L12-L23).
 
-![Screenshot of Geolocation API in action]screenshots/Screenshot_20180915-005815.png)
+![Screenshot of Geolocation API in action](screenshots/Screenshot_20180915-005815.png)
 
 ### Offline availability
 
